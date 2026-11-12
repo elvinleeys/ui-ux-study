@@ -1,0 +1,19 @@
+
+> ui-lab@0.1.0 check
+> npm run lint && npm run lint:css && node scripts/check-lines.mjs && npx playwright test
+
+
+> ui-lab@0.1.0 lint
+> eslint
+
+
+> ui-lab@0.1.0 lint:css
+> stylelint "src/**/*.css"
+
+파일 길이 검사 통과
+
+Running 1 test using 1 worker
+
+  ✓  1 [chromium] › tests\smoke.spec.ts:3:1 › 홈 화면이 열린다 (338ms)
+
+  1 passed (5.0s)
